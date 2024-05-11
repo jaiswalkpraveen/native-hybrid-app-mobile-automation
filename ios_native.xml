@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <listeners>
+        <listener class-name="com.qa.listeners.TestListener"/>
+    </listeners>
+
+    <parameter name="env" value="iOS_Native" />
+    <parameter name="platformName" value="iOS" />
+    <parameter name="platformVersion" value="15.5" />
+<!--            <parameter name="udid" value="63E2D54C-CA63-4ECA-89C2-61F2F41EE2F7" />-->
+            <parameter name="deviceName" value="iPhone 13" />
+            <parameter name="wdaLocalPort" value="10001" />
+            <parameter name="webkitDebugProxyPort" value="11001" />
+
+
+    <test name="tests.iOS_Native">
+
+        <classes>
+<!--            <class name="com.qa.tests.Home.HomePageTest"></class>-->
+<!--            <class name="com.qa.tests.Preview.PreviewPageTest"></class>-->
+<!--            <class name="com.qa.tests.InRoom.InRoomTest"></class>-->
+<!--            <class name="com.qa.tests.LocalUpdates.LeaveRoomTest"></class>-->
+<!--            <class name="com.qa.tests.Superpowers.MuteAllTest"></class>-->
+<!--            <class name="com.qa.tests.PublishSubscribe.ScreenShareTest"></class>-->
+                        <class name="com.qa.tests.LocalUpdates.SetLayoutTest"></class>
+
+        </classes>
+    </test>
+</suite>

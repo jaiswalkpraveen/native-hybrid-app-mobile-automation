@@ -1,0 +1,31 @@
+{
+	"invalid":{
+		"username":"Akash",
+		"meeting_url":"https://flipkarthealth.app.100ms.live/meeting/zkb-lmmq-dje"
+	},
+
+	"valid":{
+		"username":"Akash",
+        "new_username": "Akash New Name",
+		"meeting_url":"https://qaroy1.qa-app.100ms.live/meeting/ocu-ubk-oyu"
+	},
+
+  "prebuilt": {
+    "username":"Akash",
+    "new_username": "Akash New Name",
+    "broadcaster_meeting_url":"https://ketul-livestream-1807.qa-app.100ms.live/streaming/meeting/kuq-tupl-cgs",
+    "co-broadcaster_meeting_url": "https://ketul-livestream-1807.qa-app.100ms.live/streaming/meeting/yms-rabn-qki",
+    "vnrt_meeting_url": "https://ketul-livestream-1807.qa-app.100ms.live/streaming/meeting/pqr-wpow-tsd",
+    "vos_meeting_url": "https://ketul-livestream-1807.qa-app.100ms.live/streaming/meeting/xzq-qaxb-xiy",
+    "vrt_meeting_url": "https://ketul-livestream-1807.qa-app.100ms.live/streaming/meeting/pjb-xycf-wpt"
+  },
+
+  "camera":{
+    "ON":"on",
+    "OFF":"off"
+  },
+  "mic":{
+    "ON":"on",
+    "OFF":"off"
+  }
+}

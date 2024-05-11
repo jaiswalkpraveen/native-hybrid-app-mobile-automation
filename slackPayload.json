@@ -1,0 +1,33 @@
+{
+  "attachments": [
+    {
+      "color": "#1cba2c",
+      "blocks": [
+        {
+          "text": {
+            "text": "*Prebuilt RN Android Test Result: *:tada:",
+            "type": "mrkdwn"
+          },
+          "type": "section"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "elements": [
+            {
+              "text": {
+                "emoji": true,
+                "text": "View Report",
+                "type": "plain_text"
+              },
+              "type": "button",
+              "url": "https://dashboard-apis-tests-reports.s3-ap-south-1.amazonaws.com/replaceme/Extent.html"
+            }
+          ],
+          "type": "actions"
+        }
+      ]
+    }
+  ]
+}
